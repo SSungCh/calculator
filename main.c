@@ -27,6 +27,12 @@ int main(int argc, char* argv[])
 		case '/':
 			result = div(number1, number2);
 			break;
+		case 'r':
+			result = root(number1, number2);
+			break;
+		case 'f':
+			result = factorial(number1, number2):
+			break;
 	}
 	
 	printf("result is %d.\n", result);
