@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+#주석을 달았습니다.
 int add(int, int);
 int sub(int, int);
 int div(int, int);
