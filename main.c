@@ -27,6 +27,12 @@ int main(int argc, char* argv[])
 		case '/':
 			result = div(number1, number2);
 			break;
+		case 'r':
+			result = root(number1, number2);
+			break;
+		case 'f':
+			result = factorial(number1, number2):
+			break;
 	}
 	
 	printf("result is %d.\n", result);
@@ -53,6 +59,18 @@ int multi(int number1, int number2)
 }
  
 int div(int number1, int number2)
+{
+	//TODO implementation
+	return 0;
+}
+
+int root(int number1, int number2)
+{
+	//TODO implementation
+	return 0;
+}
+
+int factorial(int number1, int number2)
 {
 	//TODO implementation
 	return 0;
